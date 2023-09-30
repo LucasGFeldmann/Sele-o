@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+/* Imagens */
+
+.logo {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.foto-aluno {
+    height: 100%;
+    border: 2px solid rgb(107, 107, 107);
+    box-shadow: black 3px 2px 6px 1px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+/**/
+
+
+.bold-text {
+    font-weight: bold;
+}
+
+.header-carteira {
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #3057a3;
+}
+
+
+.informacao-aluno {
+    display: flex;
+    align-items: stretch;
+}
+.main-carteira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-carteira section {
+    width: 95%;
+    background-color: rgb(212, 212, 212);
+    margin: 4px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.informacao-aluno {
+    height: 150px;
+}
+
+.informacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dada-informacao {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* TABELA */
+
+table {
+    width: 100%;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+th {
+    font-size: 18px;
+    padding: 8px;
+}
+
+td {
+    text-align: center;
+    padding: 1px 10px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+@media (max-width: 1024) {
+    
+}
+@media (max-width: 768px) {
+    * {
+        font-size: 13px;
+    }
+    .main-carteira section {
+        width: 90%;
+    }
+    h1 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 425px) {
+    * {
+        font-size: 12px;
+    }
+    .dada-informacao {
+        flex-direction: column;
+    }
+    .main-carteira section {
+        width: 80%;
+    }
+    h1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .main-carteira section {
+        width: 80%;
+    }
+}
